@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/mayswill3/my-portfolio/compare/v1.0.0...v1.1.0) (2024-11-18)
+
+
+### Features
+
+* update favicon and social links ([9696de7](https://github.com/mayswill3/my-portfolio/commit/9696de7549dcd120a19dea001abca311305bcfc0))
+
 # 1.0.0 (2024-11-18)
 
 
