@@ -1,3 +1,10 @@
+# 1.0.0 (2024-11-18)
+
+
+### Features
+
+* update README and meta descriptions ([f6c1089](https://github.com/mayswill3/my-portfolio/commit/f6c1089ee0acb657c77a6a9bacece5c84fd04462))
+
 ## [3.58.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.58.1...v3.58.2) (2024-10-17)
 
 
