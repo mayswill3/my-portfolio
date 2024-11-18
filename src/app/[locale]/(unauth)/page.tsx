@@ -102,7 +102,19 @@ const Index = (props: { params: { locale: string } }) => {
           I'm a developer who is always thinking of new ideas, constantly seeking opportunities to solve real-world problems through technology. My passion lies in taking these ideas and turning them into robust, well-crafted solutions that are both effective and user-friendly.
         </p>
 
-        <p className="mb-4">Currently, I'm working on Crowdfighter, a platform designed to empower professional fighters to crowdfund their fights. I'm focused on developing major plans to take Crowdfighter further, with the aim of expanding its reach and making a significant impact in the world of boxing.</p>
+        <p className="mb-4">
+          Currently, I'm working on&nbsp;
+          <a
+            href="https://www.crowdfighter.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="group/link inline-flex items-baseline text-base font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+            aria-label="Senior Frontend Engineer · University of East Anglia (opens in a new tab)"
+          >
+            Crowdfighter
+          </a>
+          , a platform designed to empower professional fighters to crowdfund their fights. I'm focused on developing major plans to take Crowdfighter further, with the aim of expanding its reach and making a significant impact in the world of boxing.
+        </p>
 
         <p className="mb-4">In the past, I've had the opportunity to develop software across a variety of settings — including advertising agencies, large corporations, start-ups, and small digital product studios. I also have a keen interest in cryptocurrency and am fascinated by how it could impact our daily lives in the future.</p>
 
@@ -157,7 +169,7 @@ const Index = (props: { params: { locale: string } }) => {
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        Storybook
+                        Figma
                       </div>
                     </li>
                   </ul>
@@ -210,6 +222,133 @@ const Index = (props: { params: { locale: string } }) => {
                         Next.js
                       </div>
                     </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        StoryBlock
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li className="mb-12">
+              <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                <div className="absolute -inset-4 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2018 to 2024">
+                  2022 — 2022
+                </header>
+                <div className="z-10 sm:col-span-6">
+                  <h3 className="font-medium leading-snug text-slate-200">
+                    <div>
+                      <a
+                        href="https://www.nimbletank.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="group/link inline-flex items-baseline text-base font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+                        aria-label="Senior Frontend Engineer · University of East Anglia (opens in a new tab)"
+                      >
+                        Senior Frontend Engineer · Nimbletank
+                      </a>
+                    </div>
+                  </h3>
+                  <p className="mt-2 text-sm leading-normal">
+                    I developed an advertising platform for NatWest that connects customers with business experts across a range of topics and categories, providing valuable insights and personalized guidance.
+                  </p>
+                  <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        JavaScript
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        TypeScript
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        React
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Next.js
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Theme UI
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        E2E Testing Cypress
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Storybook Js
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li className="mb-12">
+              <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                <div className="absolute -inset-4 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2018 to 2024">
+                  2021 — 2022
+                </header>
+                <div className="z-10 sm:col-span-6">
+                  <h3 className="font-medium leading-snug text-slate-200">
+                    <div>
+                      <a
+                        href="https://www.nimbletank.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="group/link inline-flex items-baseline text-base font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+                        aria-label="Senior Frontend Engineer · University of East Anglia (opens in a new tab)"
+                      >
+                        Senior Frontend Engineer · Future Platforms
+                      </a>
+                    </div>
+                  </h3>
+                  <p className="mt-2 text-sm leading-normal">
+                    I developed an advertising platform for NatWest that connects customers with business experts across a range of topics and categories, providing valuable insights and personalized guidance.
+                  </p>
+                  <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        JavaScript
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        TypeScript
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        React
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Next.js
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Material UI
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Redux
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -247,7 +386,7 @@ const Index = (props: { params: { locale: string } }) => {
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        TypeScript
+                        Sass
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
@@ -257,7 +396,7 @@ const Index = (props: { params: { locale: string } }) => {
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        Next.js
+                        Redux
                       </div>
                     </li>
                   </ul>
@@ -297,17 +436,17 @@ const Index = (props: { params: { locale: string } }) => {
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        TypeScript
+                        KOjs
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        React
+                        VueJS
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        Next.js
+                        Angular 2
                       </div>
                     </li>
                   </ul>
@@ -341,22 +480,27 @@ const Index = (props: { params: { locale: string } }) => {
                   <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Hybris CMS
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        HTML
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        CSS
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        JQuery
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
                         JavaScript
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        TypeScript
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        React
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        Next.js
                       </div>
                     </li>
                   </ul>
@@ -390,22 +534,17 @@ const Index = (props: { params: { locale: string } }) => {
                   <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        HTML 5
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
                         JavaScript
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        TypeScript
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        React
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        Next.js
+                        Photoshop
                       </div>
                     </li>
                   </ul>
@@ -442,6 +581,38 @@ const Index = (props: { params: { locale: string } }) => {
                   <p className="mt-2 text-sm leading-normal">
                     Crowdfighter is a platform that allows fans to fund combat sports events by backing specific fighters. If a fight reaches its funding goal, it goes ahead, and backers receive rewards like exclusive content or tickets.
                   </p>
+                  <ul className="mt-2 flex flex-wrap" aria-label="Technologies used:">
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        React
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Next.js
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        MongoDB
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        JavaScript
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        TypeScript
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Tailwind
+                      </div>
+                    </li>
+                  </ul>
                 </div>
                 <Image
                   alt="Build a Spotify Connected App Newline course marketing card"
@@ -491,12 +662,22 @@ const Index = (props: { params: { locale: string } }) => {
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        Express
+                        Tailwind
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        Spotify API
+                        Solidity
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Next.js
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        JavaScript
                       </div>
                     </li>
                   </ul>

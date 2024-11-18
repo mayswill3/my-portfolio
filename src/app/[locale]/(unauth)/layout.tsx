@@ -135,7 +135,7 @@ export default function Layout(props: {
               <li className="mr-4 shrink-0 text-xs lg:mr-5">
                 <a
                   className="group block hover:text-teal-300"
-                  href="https://github.com/bchiang7"
+                  href="https://github.com/mayswill3"
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label="GitHub (opens in a new tab)"
@@ -154,7 +154,7 @@ export default function Layout(props: {
               <li className="mr-4 shrink-0 text-xs lg:mr-5">
                 <a
                   className="group block hover:text-teal-300"
-                  href="https://www.linkedin.com/in/bchiang7/"
+                  href="https://www.linkedin.com/in/william-mays-4926b186/"
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label="LinkedIn (opens in a new tab)"
@@ -173,7 +173,7 @@ export default function Layout(props: {
               <li className="mr-4 shrink-0 text-xs lg:mr-5">
                 <a
                   className="group block hover:text-teal-300"
-                  href="https://instagram.com/bchiang7"
+                  href="https://www.instagram.com/mayswill3/"
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label="Instagram (opens in a new tab)"
@@ -192,7 +192,7 @@ export default function Layout(props: {
               <li className="mr-4 shrink-0 text-xs lg:mr-5">
                 <a
                   className="group block hover:text-teal-300"
-                  href="https://twitter.com/bchiang7"
+                  href="https://x.com/mayswill3"
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label="Twitter (opens in a new tab)"
