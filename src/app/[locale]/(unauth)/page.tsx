@@ -227,6 +227,11 @@ const Index = (props: { params: { locale: string } }) => {
                         StoryBlock
                       </div>
                     </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Algolia
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -485,7 +490,7 @@ const Index = (props: { params: { locale: string } }) => {
                     </li>
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        HTML
+                        HTML & CSS
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
@@ -612,6 +617,11 @@ const Index = (props: { params: { locale: string } }) => {
                         Tailwind
                       </div>
                     </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Railway
+                      </div>
+                    </li>
                   </ul>
                 </div>
                 <Image
@@ -678,6 +688,11 @@ const Index = (props: { params: { locale: string } }) => {
                     <li className="mr-1.5 mt-2">
                       <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
                         JavaScript
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Vercel
                       </div>
                     </li>
                   </ul>
