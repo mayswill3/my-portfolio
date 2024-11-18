@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/mayswill3/my-portfolio/compare/v1.1.0...v1.2.0) (2024-11-18)
+
+
+### Features
+
+* update tech stacks ([d4d05b8](https://github.com/mayswill3/my-portfolio/commit/d4d05b8a63f88c9af9cacf2386b7c532f8c44f74))
+
 # [1.1.0](https://github.com/mayswill3/my-portfolio/compare/v1.0.0...v1.1.0) (2024-11-18)
 
 
