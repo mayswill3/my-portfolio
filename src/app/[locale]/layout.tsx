@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
-import { DemoBadge } from '@/components/DemoBadge';
+// import { DemoBadge } from '@/components/DemoBadge';
 import { AppConfig } from '@/utils/AppConfig';
 
 export const metadata: Metadata = {
@@ -50,7 +50,7 @@ export default function RootLayout(props: {
 
   return (
     <html lang={props.params.locale}>
-      <body suppressHydrationWarning className='bg-slate-700 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900'>
+      <body suppressHydrationWarning className="bg-slate-700 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
         <NextIntlClientProvider
           locale={props.params.locale}
           messages={messages}

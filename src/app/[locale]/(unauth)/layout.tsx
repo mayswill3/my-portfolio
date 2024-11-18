@@ -1,14 +1,13 @@
 'use client';
 
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
 
 export default function Layout(props: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
   // unstable_setRequestLocale(props.params.locale);
-  const t = useTranslations('RootLayout');
+  // const t = useTranslations('RootLayout');
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
     e.preventDefault();
