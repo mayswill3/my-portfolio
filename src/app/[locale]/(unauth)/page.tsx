@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -321,7 +322,7 @@ const Index = (props: { params: { locale: string } }) => {
                     </div>
                   </h3>
                   <p className="mt-2 text-sm leading-normal">
-                    I developed an advertising platform for NatWest that connects customers with business experts across a range of topics and categories, providing valuable insights and personalized guidance.
+                    As a Senior Developer at Future Platforms, I led the integration of Garashield Ltd's digital garage platform, migrating pages to a modern framework and enhancing performance, resulting in a 25% improvement in user interaction. I also worked on aligning systems for EE's merger with BT to improve service integration.
                   </p>
                   <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                     <li className="mr-1.5 mt-2">
@@ -559,6 +560,37 @@ const Index = (props: { params: { locale: string } }) => {
 
             {/* Add more experience items as needed */}
           </ol>
+
+          <div className="mt-12">
+            <Link
+              href="/resume.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="View Full Résumé (opens in a new tab)"
+              className="group/link inline-flex items-baseline text-base font-semibold leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+            >
+              <span>
+                View Full
+                {' '}
+                <span className="inline-block">
+                  Résumé
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="ml-1 inline-block size-4 shrink-0 translate-y-px transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </span>
+            </Link>
+          </div>
 
         </div>
       </section>
