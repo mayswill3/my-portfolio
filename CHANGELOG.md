@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/mayswill3/my-portfolio/compare/v1.2.0...v1.3.0) (2024-11-19)
+
+
+### Features
+
+* add resume + more screen estate for mobile ([bd60ba8](https://github.com/mayswill3/my-portfolio/commit/bd60ba8692851666fbfb90e35158401cdb096f6d))
+
 # [1.2.0](https://github.com/mayswill3/my-portfolio/compare/v1.1.0...v1.2.0) (2024-11-18)
 
 
