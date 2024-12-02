@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/mayswill3/my-portfolio/compare/v1.3.0...v1.4.0) (2024-12-02)
+
+
+### Features
+
+* stop run every day at 5am ([381d83a](https://github.com/mayswill3/my-portfolio/commit/381d83ab2ea58c1909520e8d378b8e4bc6c79c13))
+
 # [1.3.0](https://github.com/mayswill3/my-portfolio/compare/v1.2.0...v1.3.0) (2024-11-19)
 
 
