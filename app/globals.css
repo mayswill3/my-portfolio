@@ -29,3 +29,28 @@ body {
 .animate-blink {
   animation: blink 1s step-end infinite;
 }
+
+/* Print styles for /cv page */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11px !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  @page {
+    margin: 0.4in 0.5in;
+    size: A4;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+}

@@ -38,7 +38,7 @@ export default function Contact() {
 
       <div className="mt-8">
         <a
-          href="/resume.pdf"
+          href="/cv"
           target="_blank"
           rel="noreferrer noopener"
           className="inline-flex items-center gap-2 rounded-full border border-accent bg-accent/10 px-6 py-3 text-sm font-medium text-accent transition-all hover:bg-accent/20"

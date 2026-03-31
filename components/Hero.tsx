@@ -65,7 +65,7 @@ export default function Hero() {
             View Projects
           </a>
           <a
-            href="/resume.pdf"
+            href="/cv"
             target="_blank"
             rel="noreferrer noopener"
             className="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-medium text-body transition-all hover:border-white/40"
