@@ -9,6 +9,15 @@ export type ExperienceEntry = {
 
 export const experiences: ExperienceEntry[] = [
   {
+    period: 'Jan 2025 — Apr 2025',
+    role: 'React Developer',
+    company: 'Anglia Ruskin University',
+    url: 'https://www.aru.ac.uk/',
+    description:
+      'Contracted via Real Staffing to build wireframes for the EE process dashboard, resolve bugs in the EE workflow, ensure UI consistency with existing design standards, and deliver incremental sprint-based development. Also trained internal staff on React.',
+    technologies: ['React', 'TypeScript', 'JavaScript'],
+  },
+  {
     period: '2024 — 2024',
     role: 'Senior Frontend Engineer',
     company: 'Landworth',
