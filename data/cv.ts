@@ -46,7 +46,11 @@ export const cvExperiences: CVExperienceEntry[] = [
       period: e.period,
       role: e.role,
       company: e.company,
-      location: e.company === 'University of East Anglia' ? 'Norwich, UK' : 'London, UK',
+      location: e.company === 'University of East Anglia'
+        ? 'Norwich, UK'
+        : e.company === 'Anglia Ruskin University'
+          ? 'Chelmsford, UK'
+          : 'London, UK',
       bullets,
       technologies: e.technologies,
     };
