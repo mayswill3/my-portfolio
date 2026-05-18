@@ -48,7 +48,7 @@ export default function Hero() {
           animate="visible"
           className="mb-8 max-w-2xl text-lg text-muted md:text-xl"
         >
-          We build AI-powered consumer products and bespoke front-end systems — turning ideas into fast, accessible, well-crafted digital experiences.
+          We build AI-powered consumer products and bespoke front-end systems, turning ideas into fast, accessible, well-crafted digital experiences.
         </motion.p>
 
         <motion.div

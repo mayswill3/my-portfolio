@@ -11,7 +11,7 @@ export const personalInfo = {
 };
 
 export const summary
-  = 'Senior Front-End Engineer with 10+ years of experience across all stages of the development cycle for dynamic web projects. Skilled in React, Next.js, TypeScript, and React Native, with a strong background in agile methodologies. Currently building products as a solo founder — including an AI-powered prediction market and a dating app with 1,000+ users. Passionate about turning ideas into fast, accessible, well-crafted products.';
+  = 'Senior Front-End Engineer with 10+ years of experience across all stages of the development cycle for dynamic web projects. Skilled in React, Next.js, TypeScript, and React Native, with a strong background in agile methodologies. Currently building products as a solo founder, including an AI-powered prediction market and a dating app with 1,000+ users. Passionate about turning ideas into fast, accessible, well-crafted products.';
 
 export type CVExperienceEntry = {
   period: string;

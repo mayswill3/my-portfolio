@@ -26,12 +26,15 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="text-center text-sm text-muted">
-          <p className="font-medium text-body">Mayswill Limited</p>
-          <p>Company registered in England and Wales</p>
-          <p>Company No. 13191730</p>
-          <p>Registered office: 14b Kenworthy Road, London, England, E9 5TD</p>
-        </div>
+        <p className="text-center text-sm text-muted">
+          Mayswill Limited &middot; Company No. 13191730 &middot; Registered in England and Wales
+          {' '}
+          &middot;
+          {' '}
+          <a href="/legal" className="text-accent transition-colors hover:text-accent/80">
+            Company Information
+          </a>
+        </p>
 
         <p className="text-sm text-muted">
           &copy;

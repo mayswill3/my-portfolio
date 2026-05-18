@@ -49,7 +49,7 @@ export default function About() {
           , a mobile dating app with over 1,000 users on iOS and Android.
         </p>
         <p>
-          Our expertise spans React, Next.js, TypeScript, React Native, and Web3 — from concept through to deployment and ongoing support.
+          Our expertise spans React, Next.js, TypeScript, React Native, and Web3, from concept through to deployment and ongoing support.
         </p>
       </div>
     </motion.section>

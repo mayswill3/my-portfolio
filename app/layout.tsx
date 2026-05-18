@@ -17,11 +17,11 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Mayswill Limited \u2014 Software Studio | AI Products & Bespoke Front-End Systems',
+  title: 'Mayswill Limited | Software Studio | AI Products & Bespoke Front-End Systems',
   description:
     'Mayswill Limited is a London-based software studio building AI-powered consumer products and bespoke front-end systems. Creators of Eroteme and Pop the Balloon.',
   openGraph: {
-    title: 'Mayswill Limited \u2014 Software Studio | AI Products & Bespoke Front-End Systems',
+    title: 'Mayswill Limited | Software Studio | AI Products & Bespoke Front-End Systems',
     description:
       'London-based software studio building AI-powered consumer products and bespoke front-end systems.',
     url: 'https://www.mayswill.com',

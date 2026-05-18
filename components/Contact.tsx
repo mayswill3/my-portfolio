@@ -26,7 +26,7 @@ export default function Contact() {
       </h2>
 
       <p className="mx-auto mb-10 max-w-lg text-lg text-muted">
-        Whether you&apos;re looking for a development partner, have a project in mind, or just want to learn more about what we do — we&apos;d love to hear from you.
+        Whether you&apos;re looking for a development partner, have a project in mind, or just want to learn more about what we do, we&apos;d love to hear from you.
       </p>
 
       <a

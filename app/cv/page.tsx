@@ -13,7 +13,7 @@ import {
 } from '@/data/cv';
 
 export const metadata: Metadata = {
-  title: 'William Mays — CV',
+  title: 'William Mays | CV',
   description: 'CV for William Mays, Senior Front-End Engineer and Founder.',
 };
 
