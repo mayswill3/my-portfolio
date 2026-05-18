@@ -26,7 +26,7 @@ export default function Contact() {
       </h2>
 
       <p className="mx-auto mb-10 max-w-lg text-lg text-muted">
-        Whether you&apos;re interested in working together, hiring for a senior engineering role, or just want to talk — feel free to reach out.
+        Whether you&apos;re looking for a development partner, have a project in mind, or just want to learn more about what we do — we&apos;d love to hear from you.
       </p>
 
       <a
@@ -35,17 +35,6 @@ export default function Contact() {
       >
         mayswill3@hotmail.co.uk
       </a>
-
-      <div className="mt-8">
-        <a
-          href="/cv"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="inline-flex items-center gap-2 rounded-full border border-accent bg-accent/10 px-6 py-3 text-sm font-medium text-accent transition-all hover:bg-accent/20"
-        >
-          View Full R&eacute;sum&eacute;
-        </a>
-      </div>
     </motion.section>
   );
 }

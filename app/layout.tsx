@@ -17,15 +17,15 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'William Mays \u2014 Senior Front-End Engineer',
+  title: 'Mayswill Limited \u2014 Software Studio | AI Products & Bespoke Front-End Systems',
   description:
-    'Senior Front-End Engineer with 7+ years building digital products. Founder of Eroteme and Pop the Balloon.',
+    'Mayswill Limited is a London-based software studio building AI-powered consumer products and bespoke front-end systems. Creators of Eroteme and Pop the Balloon.',
   openGraph: {
-    title: 'William Mays \u2014 Senior Front-End Engineer',
+    title: 'Mayswill Limited \u2014 Software Studio | AI Products & Bespoke Front-End Systems',
     description:
-      'Senior Front-End Engineer with 7+ years building digital products.',
+      'London-based software studio building AI-powered consumer products and bespoke front-end systems.',
     url: 'https://www.mayswill.com',
-    siteName: 'William Mays',
+    siteName: 'Mayswill Limited',
     locale: 'en_GB',
     type: 'website',
   },

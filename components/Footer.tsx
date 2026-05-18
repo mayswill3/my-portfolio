@@ -10,11 +10,7 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer className="border-t border-white/5 px-6 py-8">
-      <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 sm:flex-row">
-        <p className="text-sm text-muted">
-          &copy; 2025 William Mays
-        </p>
-
+      <div className="mx-auto flex max-w-5xl flex-col items-center gap-4">
         <div className="flex items-center gap-4">
           {socialLinks.map(social => (
             <a
@@ -29,6 +25,21 @@ export default function Footer() {
             </a>
           ))}
         </div>
+
+        <div className="text-center text-sm text-muted">
+          <p className="font-medium text-body">Mayswill Limited</p>
+          <p>Company registered in England and Wales</p>
+          <p>Company No. 13191730</p>
+          <p>Registered office: 14b Kenworthy Road, London, England, E9 5TD</p>
+        </div>
+
+        <p className="text-sm text-muted">
+          &copy;
+          {' '}
+          {new Date().getFullYear()}
+          {' '}
+          Mayswill Limited. All rights reserved.
+        </p>
       </div>
     </footer>
   );

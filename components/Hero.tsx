@@ -25,7 +25,7 @@ export default function Hero() {
           animate="visible"
           className="mb-4 font-mono text-sm uppercase tracking-widest text-accent"
         >
-          Hello, I&apos;m William Mays
+          Mayswill Limited
         </motion.p>
 
         <motion.h1
@@ -35,9 +35,9 @@ export default function Hero() {
           animate="visible"
           className="mb-6 text-4xl font-bold leading-tight text-white md:text-6xl lg:text-7xl"
         >
-          Senior Front-End Engineer
+          Software Studio
           <br />
-          <span className="text-accent">&amp; Founder</span>
+          <span className="text-accent">London, UK</span>
           <span className="animate-blink ml-1 text-accent">|</span>
         </motion.h1>
 
@@ -48,7 +48,7 @@ export default function Hero() {
           animate="visible"
           className="mb-8 max-w-2xl text-lg text-muted md:text-xl"
         >
-          I build digital experiences for the web — turning ideas into fast, accessible, well-crafted products.
+          We build AI-powered consumer products and bespoke front-end systems — turning ideas into fast, accessible, well-crafted digital experiences.
         </motion.p>
 
         <motion.div
@@ -62,15 +62,13 @@ export default function Hero() {
             href="#projects"
             className="inline-flex items-center gap-2 rounded-full border border-accent bg-accent/10 px-6 py-3 text-sm font-medium text-accent transition-all hover:bg-accent/20"
           >
-            View Projects
+            View Our Work
           </a>
           <a
-            href="/cv"
-            target="_blank"
-            rel="noreferrer noopener"
+            href="#contact"
             className="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-medium text-body transition-all hover:border-white/40"
           >
-            View R&eacute;sum&eacute;
+            Get In Touch
           </a>
         </motion.div>
 

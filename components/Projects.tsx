@@ -34,7 +34,7 @@ export default function Projects() {
           variants={itemVariants}
           className="mb-12 font-mono text-sm uppercase tracking-widest text-accent"
         >
-          / Projects
+          / Selected Work
         </motion.p>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">

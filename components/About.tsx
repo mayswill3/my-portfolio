@@ -23,10 +23,10 @@ export default function About() {
 
       <div className="max-w-3xl space-y-6 text-lg leading-relaxed text-muted">
         <p>
-          I&apos;m a developer who is always thinking of new ideas, constantly seeking opportunities to solve real-world problems through technology. My passion lies in taking these ideas and turning them into robust, well-crafted solutions that are both effective and user-friendly.
+          Mayswill Limited is a London-based software studio specialising in AI-powered consumer products and bespoke front-end engineering. We partner with businesses of all sizes to design, build, and ship digital products that are fast, accessible, and built to last.
         </p>
         <p>
-          Beyond client work, I&apos;m a solo founder — currently building
+          We also develop our own products. Our current portfolio includes
           {' '}
           <a
             href="https://eroteme.io/"
@@ -36,7 +36,7 @@ export default function About() {
           >
             Eroteme
           </a>
-          , an AI-powered prediction market on Polygon, and
+          , an AI-powered prediction market built on Polygon with peer-to-peer USDC settlement, and
           {' '}
           <a
             href="https://www.poptheballoonapp.com/"
@@ -46,7 +46,10 @@ export default function About() {
           >
             Pop the Balloon
           </a>
-          , a dating app with 1,000+ users on iOS and Android. I&apos;m also a qualified boxing trainer and manage a property portfolio across London, Essex, and Kent.
+          , a mobile dating app with over 1,000 users on iOS and Android.
+        </p>
+        <p>
+          Our expertise spans React, Next.js, TypeScript, React Native, and Web3 — from concept through to deployment and ongoing support.
         </p>
       </div>
     </motion.section>
